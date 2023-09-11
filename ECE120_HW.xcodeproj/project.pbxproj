@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C77083A2AAF804700EB925A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C7708392AAF804700EB925A /* main.c */; };
+		6C7708412AAF908000EB925A /* power_of_five.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C7708402AAF908000EB925A /* power_of_five.c */; };
+		6C7708432AAF974D00EB925A /* factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C7708422AAF974D00EB925A /* factorial.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		6C7708362AAF804700EB925A /* ECE120_HW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ECE120_HW; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C7708392AAF804700EB925A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6C7708402AAF908000EB925A /* power_of_five.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power_of_five.c; sourceTree = "<group>"; };
+		6C7708422AAF974D00EB925A /* factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = factorial.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		6C7708382AAF804700EB925A /* ECE120_HW */ = {
 			isa = PBXGroup;
 			children = (
-				6C7708392AAF804700EB925A /* main.c */,
+				6C7708402AAF908000EB925A /* power_of_five.c */,
+				6C7708422AAF974D00EB925A /* factorial.c */,
 			);
 			path = ECE120_HW;
 			sourceTree = "<group>";
@@ -119,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C77083A2AAF804700EB925A /* main.c in Sources */,
+				6C7708412AAF908000EB925A /* power_of_five.c in Sources */,
+				6C7708432AAF974D00EB925A /* factorial.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

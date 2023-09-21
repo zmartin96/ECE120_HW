@@ -25,7 +25,7 @@ int factorial(int n, int m)
 };
 
 
-int main2(void)
+int mainυ(void)
 {
 	/* Initialization */
 	int fact, // user input
@@ -44,7 +44,6 @@ int main2(void)
 			printf("The input is not acceptable, please try again.\n");
 		}
 		else notAcceptable=0;
-		printf("%d", result);
 		
 	} while (notAcceptable==1); // while notAcceptable is true
 	

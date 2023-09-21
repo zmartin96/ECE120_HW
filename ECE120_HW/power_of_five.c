@@ -5,7 +5,7 @@
  */
 #include <stdio.h>
 #include <math.h>
-int main(void)
+int Po5(void)
 {
 	/* Declare variables */
 	int counter; /* loop counter */

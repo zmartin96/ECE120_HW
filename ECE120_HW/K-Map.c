@@ -19,7 +19,7 @@ unsigned int testFunction(unsigned int *function,
 int main(void)
 {
 	// Hey Jonathan, have a nice day!
-	unsigned int a, b, c, d, w, x, y, z;
+	unsigned int a, b, d, w, x, y, z;
 	// definition of functions
 	char funct[2][40]={"f(w,x,y,z) = w'x' + x'y' + y'z + z'w'",
 						"g(w,x,y,z) = (x+y)(w'+y+z')"};

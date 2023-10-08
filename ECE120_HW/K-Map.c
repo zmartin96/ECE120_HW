@@ -16,7 +16,7 @@ unsigned int testFunction(unsigned int *function,
 	}
 };
 
-int main(void)
+int kMap(void)
 {
 	// Hey Jonathan, have a nice day!
 	unsigned int a, b, d, w, x, y, z;

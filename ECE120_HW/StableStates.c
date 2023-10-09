@@ -31,7 +31,7 @@
  * First written.
  */
 #include <stdio.h>
-int main (void)
+int StableStates (void)
 {
 	unsigned int R_bar; /* "reset" control input--active low */
 	unsigned int S_bar; /* "set" control--active low */

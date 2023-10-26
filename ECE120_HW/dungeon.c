@@ -34,21 +34,24 @@ main (void)
 		/***************/
 		key = 0;
 		room = 0;
-		while ( room < 3 ) /* Explore the maze */
+		while ( room < 3 || room == 5) /* Explore the maze */
 		{
 			if ( room == 0 )
 			{
 				printf("You wake in a dungeon, chained to the wall!\n");
 				printf("The chains are rusty, and you manage to break free.\n");
 				printf("You search the room carefully, ");
-				printf("and you discover two hidden exits;\n");
+				printf("and you discover three hidden exits;\n");
 				printf("a tunnel under a large flagstone, ");
-				printf("and an air vent large enough to crawl through.\n");
+				printf("an air vent large enough to crawl through,\n");
+				printf("and a legde that you could probably reach ");
+				printf("if you stacked a few nearby stones.\n");
 				printf("Which exit do you wish to explore?\n");
-				printf("Enter 0 for flagstone, or 1 for air vent. ");
+				printf("Enter 0 for flagstone, 1 for air vent, or 2 for ledge. ");
 				scanf("%d", &choice);
 				if ( choice == 0 ) { room = 3; }
 				if ( choice == 1 ) { room = 1; }
+				if ( choice == 2 ) { room = 5; }
 			}
 			else if ( room == 1 )
 			{
@@ -104,6 +107,37 @@ main (void)
 				scanf("%d", &choice);
 				if ( choice == 0 ) { room = 1; }
 				if ( choice == 1 ) { room = 4; }
+			}
+			else if (room == 5)
+			{
+				printf("The ledge leads to a junction with three passages. ");
+				printf("The first is a narrow opening that you can barely\n");
+				printf("squeeze through, the second is caked in some sort of ");
+				printf("yellow ooze, but seems shallow enough to cross, \n");
+				printf("and the third is pitch black, but you can hear the ");
+				printf("faint flow of running water.\n");
+				printf("Enter 0 to turn back, 1 for the first passage, 2 for ");
+				printf("the second, and 3 for the third. ");
+				scanf("%d", &choice);
+				switch(choice)
+				{
+						
+					case 0:
+						room = 0;
+						break;
+					case 1:
+						room=3;
+						break;
+					case 2:
+						room=1;
+						break;
+					case 3:
+						room = 2;
+						break;
+					default:
+						break;
+				}
+
 			}
 			printf("\n");
 		}

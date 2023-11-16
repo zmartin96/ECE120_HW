@@ -17,7 +17,7 @@
 #include <stdio.h>
 /* Define constants */
 int
-main (void)
+dungeon (void)
 {
 	/*********************/
 	/* Declare variables */

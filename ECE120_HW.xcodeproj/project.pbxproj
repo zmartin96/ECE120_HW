@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C59B38A2AFC4CC700AF8DB2 /* HEX.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C59B3892AFC4CC700AF8DB2 /* HEX.c */; };
+		6C59B38C2AFF1D1600AF8DB2 /* showBits.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C59B38B2AFF1D1600AF8DB2 /* showBits.h */; };
 		6C65ED472ABC05C500D826ED /* K-Map.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65ED462ABC05C500D826ED /* K-Map.c */; };
 		6C7708412AAF908000EB925A /* power_of_five.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C7708402AAF908000EB925A /* power_of_five.c */; };
 		6C7708432AAF974D00EB925A /* factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C7708422AAF974D00EB925A /* factorial.c */; };
@@ -28,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C59B3892AFC4CC700AF8DB2 /* HEX.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HEX.c; sourceTree = "<group>"; };
+		6C59B38B2AFF1D1600AF8DB2 /* showBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showBits.h; sourceTree = "<group>"; };
 		6C65ED462ABC05C500D826ED /* K-Map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "K-Map.c"; sourceTree = "<group>"; };
 		6C7708362AAF804700EB925A /* ECE120_HW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ECE120_HW; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7708402AAF908000EB925A /* power_of_five.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power_of_five.c; sourceTree = "<group>"; };
@@ -68,11 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				6C7708402AAF908000EB925A /* power_of_five.c */,
+				6C59B3892AFC4CC700AF8DB2 /* HEX.c */,
 				6C7708442AAF9C4B00EB925A /* HW #3 - Misc.c */,
 				6C7708422AAF974D00EB925A /* factorial.c */,
 				6C65ED462ABC05C500D826ED /* K-Map.c */,
 				6C8A64A82AD35211006E111B /* StableStates.c */,
 				6C9C15BF2AE22CE400C2245C /* dungeon.c */,
+				6C59B38B2AFF1D1600AF8DB2 /* showBits.h */,
 			);
 			path = ECE120_HW;
 			sourceTree = "<group>";
@@ -136,9 +142,11 @@
 			files = (
 				6C7708452AAF9C4B00EB925A /* HW #3 - Misc.c in Sources */,
 				6C8A64A92AD35211006E111B /* StableStates.c in Sources */,
+				6C59B38A2AFC4CC700AF8DB2 /* HEX.c in Sources */,
 				6C7708412AAF908000EB925A /* power_of_five.c in Sources */,
 				6C65ED472ABC05C500D826ED /* K-Map.c in Sources */,
 				6C9C15C02AE22CE400C2245C /* dungeon.c in Sources */,
+				6C59B38C2AFF1D1600AF8DB2 /* showBits.h in Sources */,
 				6C7708432AAF974D00EB925A /* factorial.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
